@@ -21,8 +21,7 @@ dependencies {
     implementation("org.asciidoctor:asciidoctor-gradle-jvm")
     implementation("org.asciidoctor:asciidoctorj")
     implementation("org.asciidoctor:asciidoctorj-pdf")
-    implementation("dev.adamko.dokkatoo:dokkatoo-plugin")
-    implementation("org.jetbrains.dokka:dokka-core")
+    implementation("org.jetbrains.dokka:dokka-gradle-plugin")
 
     testImplementation(gradleTestKit())
 }
