@@ -4,6 +4,11 @@ import java.io.Serializable
 
 pluginManagement {
     repositories {
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev") {
+            content {
+                includeGroup("org.jetbrains.dokka")
+            }
+        }
         maven {
             url = uri("https://repo.gradle.org/gradle/enterprise-libs-release-candidates")
             content {

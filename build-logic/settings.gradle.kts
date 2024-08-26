@@ -27,6 +27,11 @@ plugins {
 
 dependencyResolutionManagement {
     repositories {
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev") {
+            content {
+                includeGroup("org.jetbrains.dokka")
+            }
+        }
         maven {
             name = "Develocity release candidates"
             url = uri("https://repo.gradle.org/gradle/enterprise-libs-release-candidates")
