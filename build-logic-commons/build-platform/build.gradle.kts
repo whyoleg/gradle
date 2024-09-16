@@ -68,7 +68,7 @@ dependencies {
         api("org.asciidoctor:asciidoctorj:2.5.11")
         api("org.asciidoctor:asciidoctorj-api:2.5.11")
         api("org.asciidoctor:asciidoctorj-pdf:2.3.10")
-        api("org.jetbrains.dokka:dokka-gradle-plugin:2.0.20-dev-354")
+        api("org.jetbrains.dokka:dokka-gradle-plugin:2.0.20-dev-357")
         api("com.fasterxml.woodstox:woodstox-core:6.4.0") {
             because("CVE-2022-40152 on lower versions")
         }
